@@ -15,6 +15,17 @@ public class Post {
     private int viewsCount;
     private boolean report;
     private boolean bookmarks;
+    private DonutInfo donutInfo;
+    private GeoInfo geoInfo;
+    private CopyrightInfo copyrightInfo;
+    private int ownerId;
+    private int fromId;
+    private int createdBy;
+    private int replyOwnerId;
+    private int replyPostId;
+    private int friendsOnly;
+    private String postType;
+    private int signerId;
 
     public int getId() {
         return id;
@@ -118,5 +129,93 @@ public class Post {
 
     public void setBookmarks(boolean bookmarks) {
         this.bookmarks = bookmarks;
+    }
+
+    public DonutInfo getDonutInfo() {
+        return donutInfo;
+    }
+
+    public void setDonutInfo(DonutInfo donutInfo) {
+        this.donutInfo = donutInfo;
+    }
+
+    public GeoInfo getGeoInfo() {
+        return geoInfo;
+    }
+
+    public void setGeoInfo(GeoInfo geoInfo) {
+        this.geoInfo = geoInfo;
+    }
+
+    public CopyrightInfo getCopyrightInfo() {
+        return copyrightInfo;
+    }
+
+    public void setCopyrightInfo(CopyrightInfo copyrightInfo) {
+        this.copyrightInfo = copyrightInfo;
+    }
+
+    public int getOwnerId() {
+        return ownerId;
+    }
+
+    public void setOwnerId(int ownerId) {
+        this.ownerId = ownerId;
+    }
+
+    public int getFromId() {
+        return fromId;
+    }
+
+    public void setFromId(int fromId) {
+        this.fromId = fromId;
+    }
+
+    public int getCreatedBy() {
+        return createdBy;
+    }
+
+    public void setCreatedBy(int createdBy) {
+        this.createdBy = createdBy;
+    }
+
+    public int getReplyOwnerId() {
+        return replyOwnerId;
+    }
+
+    public void setReplyOwnerId(int replyOwnerId) {
+        this.replyOwnerId = replyOwnerId;
+    }
+
+    public int getReplyPostId() {
+        return replyPostId;
+    }
+
+    public void setReplyPostId(int replyPostId) {
+        this.replyPostId = replyPostId;
+    }
+
+    public int getFriendsOnly() {
+        return friendsOnly;
+    }
+
+    public void setFriendsOnly(int friendsOnly) {
+        this.friendsOnly = friendsOnly;
+    }
+
+    public String getPostType() {
+        return postType;
+    }
+
+    public void setPostType(String postType) {
+        this.postType = postType;
+    }
+
+    public int getSignerId() {
+        return signerId;
+    }
+
+    public void setSignerId(int signerId) {
+        this.signerId = signerId;
     }
 }
